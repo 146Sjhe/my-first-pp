@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.product {
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+button {
+    background: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.cart {
+    margin-top: 30px;
+}
